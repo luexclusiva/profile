@@ -1,0 +1,113 @@
+/* Importa fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+/* Import o Font Awesome */
+/* @import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css'); */
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  background-color:  cornsilk;
+  font-size: 16px;
+  line-height: 1.5;
+}
+a{
+  color: blueviolet;
+  text-decoration: cadetblue;
+}
+
+a:hover{
+  color: #ebcfc4;
+}
+
+h1 {
+  font-family: 'Open-Sans', sans-serif;
+  color: chocolate;
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: darkcyan;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: saddlebrown;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  /* width: 700px; */
+  margin: 40px auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  width: 550px;
+  margin: 16px auto;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+}
+
+#bio, #midias {
+  text-align: center;
+}
+
+#bio img{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#midias ul {
+  padding-left: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  list-style: none;
+}
+
+.btn a{
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(16, 137, 207);
+  color: white;  
+}
